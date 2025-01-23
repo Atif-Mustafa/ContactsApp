@@ -1,0 +1,25 @@
+.contactsTable {
+    /* border: 2px solid gray; */
+    box-shadow: 0 0 1px 1px gray;
+    border-radius: 5px;
+    min-width: 400px;
+    height: 350px;
+    position: relative;
+}
+
+.table-container {
+    max-height: 350px; 
+    /* overflow: hidden; */
+    
+}
+
+.contactsTable tbody {  
+    /* overflow-y: scroll; */
+    /* background-color: brown; */
+
+}
+
+.contactsTable thead tr {
+    border: 1px solid gray;
+}
+

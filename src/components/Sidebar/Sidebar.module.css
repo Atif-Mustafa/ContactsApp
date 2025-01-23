@@ -1,0 +1,60 @@
+aside{
+    padding: 1rem .6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100%;
+}
+.all-contacts, .favourites{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    color: white;
+    
+    h4{
+        /* line-height: 1rem; */
+        margin: 0;
+    }
+    h4, span{
+        color:rgba(255, 255, 255, 0.911)
+    }
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+
+    input{
+        border-radius: 5px ;
+        border: none;
+        padding: .2rem;
+    }
+    button{
+        width: max-content;
+        border-radius: 5px;
+        border: none;
+        padding: .5rem 1rem;
+        cursor: pointer;
+    }
+    button:hover{
+        box-shadow: inset 0 0 1px 1px gray;
+    }
+}
+
+.nasu{
+    display: flex;
+    gap: .4rem;
+    flex-wrap: wrap;
+
+    input{
+        width: 90px;
+        
+    }
+    
+
+}

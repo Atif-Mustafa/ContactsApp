@@ -1,0 +1,11 @@
+#root {
+  /* min-width: 1280px; */
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(77, 77, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

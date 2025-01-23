@@ -1,0 +1,21 @@
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+
+.section{
+    display: flex;
+    gap: .5rem;
+    padding-right: .5rem ;
+}
+
+.container .section aside{
+    height: 350px;
+    background-color: rgb(18, 18, 218);
+    border-top-right-radius: 5px ;
+    width: max-content;  
+    border-radius: inherit;
+    border: none;
+}

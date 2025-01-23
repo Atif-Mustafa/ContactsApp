@@ -1,0 +1,50 @@
+react toolkit 
+
+
+
+*to know the state of the store before and after the dispatch is called redux-logger dev dependency is used
+(npm i redux-logger --save-dev)
+
+*useDispatch to set data in redux store
+
+*useSelector hook to get data from redux store
+
+
+npm package uuid (generates unique id)
+
+
+Ques. How many reducers do i want?
+Ans. It is dependent on how many modules/pages do i have
+
+
+17-1 Agenda
+
+1.Search query
+2.Middleware discussion
+3.Optimization(Lazy Loading)
+
+
+
+stateful vs stateless component
+
+stateful
+
+stateless - independent component, it's responsibility is only to show the props , it doesn't have any state hooks as well as it is not connected to any store,
+also called dumb component, doesn't perform any logic
+
+
+Lazy Loading
+*It is related with router.
+
+*all jsx, css, jpg, png , etc files are bundled together using a bundler called webpack to be deployed 
+
+*webpack minified the files and bundles the files
+
+
+in lazy loading importing of files will be different
+like const file_name = React.lazy(()=> import("./file_name));
+
+
+<React.Suspense fallback={}></React.Suspense> is used in lazy loading in the app.jsx file / at the top of the component
+
+fallback is loader 

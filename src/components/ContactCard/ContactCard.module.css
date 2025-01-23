@@ -1,0 +1,13 @@
+.userPicture{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.btn-container{
+   
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    justify-content: center;
+}
+
