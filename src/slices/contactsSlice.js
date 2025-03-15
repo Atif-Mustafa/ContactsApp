@@ -49,7 +49,7 @@ const contactSlice = createSlice({
             const favouritesIndex = state.favourites.findIndex((contact) => contact.id === action.payload);
             state.favourites.splice(favouritesIndex, 1)
 
-        },
+     },
         markContactAsFavourite: (state, action) => {
             // console.log(state.contactsList)
             const index = state.contactsList.findIndex((contact) => contact.id === action.payload);
@@ -74,12 +74,12 @@ const contactSlice = createSlice({
         setFavouritesMode: (state, action) => {
             state.favouritesMode = action.payload;
         }
-
     }
 
 })
 
 // addContact(), editContact()... are functions for operations that we do using switch cases in reducer
 
+console.log(contactSlice)
 export const { addContact, editContact, deleteContact, markContactAsFavourite, setEditContactId, setSearchKey, setFavouritesMode } = contactSlice.actions;
 export default contactSlice.reducer;

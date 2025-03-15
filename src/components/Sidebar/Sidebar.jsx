@@ -44,7 +44,7 @@ const Sidebar = () => {
     }
     return (
         <aside>
-            <div className={styles['all-contacts']}onClick={() => dispatch(setFavouritesMode(false))}>
+            <div className={styles['all-contacts']} onClick={() => dispatch(setFavouritesMode(false))}>
                 <RiContactsBook2Line />
                 <div>
                     <h4>All Contacts</h4>
